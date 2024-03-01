@@ -1,3 +1,4 @@
+"use client"
 import LeftBar from "./leftBar/LeftBar"
 import NavBar from "./navbar/NavBar"
 import RightBar from "./rightBar/RightBar"

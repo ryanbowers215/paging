@@ -1,3 +1,4 @@
+"use client"
 import "./navbar.scss"
 import Link from "next/link"
 
@@ -21,10 +22,6 @@ const NavBar = () => {
                     
 
             <div className = "right">
-            <Link href = "/friends">
-            <h4>👥</h4>
-            </Link>
-            <h4>🔔</h4>
             <Link href = "/profile/me" style={{textDecoration: "none"}}>
                 <div className="user">
                     <img src = "https://images.pexels.com/photos/3747502/pexels-photo-3747502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt = '' /> 

@@ -12,7 +12,7 @@ const Home = () => {
     <div className = "home">
         <ProtectedRoute>
         <Layout>
-            <div style={{flex:6}}>
+            <div style={{flex:6, backgroundColor: "whitesmoke"}}>
             <h1>Home Page</h1>
             <h1>Home Page</h1>
             <h1>Home Page</h1>

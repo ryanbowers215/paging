@@ -1,3 +1,4 @@
+"use client"
 import "./leftBar.scss"
 import Link from "next/link"
 
@@ -24,40 +25,60 @@ const LeftBar = () => {
                        <span>Books</span>
                     </div>
                     </Link>
-                    <hr></hr>
                 </div>
+                <hr></hr>
                 <div className = "menu">
+                  <Link href = "/profile/me/shelves/currently-reading" style={{textDecoration: "none", fontSize: "larger"}}>
                     <span>Currently Reading</span>
+                  </Link>
                     <div className="item">
+                     <Link href="/books" style={{textDecoration: "none"}}>
                        <span>Beautiful World Where Are You</span> 
+                       </Link>
                     </div>
                     <div className="item">
+                    <Link href="/books" style={{textDecoration: "none"}}>
                        <span>Pride and Prejudice</span> 
+                       </Link>
                     </div>
                     <div className="item">
-                       <span>1984</span>
+                    <Link href="/books" style={{textDecoration: "none"}}>
+                       <span>1984</span> 
+                       </Link>
                     </div>
-                    <hr></hr>
                 </div>
+                <hr></hr>
                 <div className = "menu">
+                  <Link href = "/profile/me/shelves" style={{textDecoration: "none", fontSize: "larger"}}>
                     <span>Shelves</span>
+                   </Link>
                     <div className="item">
+                     <Link href = "/profile/me/shelves/currently-reading" style={{textDecoration: "none"}}>
                        <span>Currently Reading</span> 
+                       </Link>
                     </div>
                     <div className="item">
+                    <Link href = "/profile/me/shelves/to-be-read" style={{textDecoration: "none"}}>
                        <span>To Be Read</span> 
+                     </Link>
                     </div>
                     <div className="item">
+                    <Link href = "/profile/me/shelves/read" style={{textDecoration: "none"}}>
                        <span>Read</span> 
+                     </Link>
                     </div>
                     <div className="item">
+                    <Link href = "/profile/me/shelves/books-i-own" style={{textDecoration: "none"}}>
                        <span>Books I Own</span> 
+                     </Link>
                     </div>
                     <div className="item">
-                       <span>Wishlist</span> 
+                    <Link href = "/profile/me/shelves/wishlist" style={{textDecoration: "none"}}>
+                       <span>Wishlist</span>
+                     </Link>
                     </div>
-                    <hr></hr>
                 </div>
+                <hr></hr>
                 
             </div>
         </div>
