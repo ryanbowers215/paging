@@ -5,6 +5,8 @@ import LeftBar from "../components/leftBar/LeftBar"
 import RightBar from "../components/rightBar/rightBar"
 import Layout from "../components/layout"
 import ProtectedRoute from "../components/protectedRoute"
+import Stories from "../components/storyposts/page"
+import Posts from "../components/posts/page"
 
 const Home = () => {
 
@@ -12,46 +14,10 @@ const Home = () => {
     <div className = "home">
         <ProtectedRoute>
         <Layout>
-            <div style={{flex:6, backgroundColor: "whitesmoke"}}>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
-            <h1>Home Page</h1>
+            <div style={{flex:6, textAlign: "center"}}>
+            <Stories />
+            <Posts />
+   
             </div>
         </Layout>
         </ProtectedRoute>

@@ -8,7 +8,7 @@ const Register = () => {
             <div className = "card">
                 <div className = "left">
                     <h1>Welcome to Paging.</h1>
-                    <p>by Ryan Bowers</p>
+                    <p>A book-focused Social Media</p>
                     <span>Already have an account?</span>
                     <Link href="/login"><button>Login</button></Link>
                 </div>
@@ -16,9 +16,11 @@ const Register = () => {
                     <h1>Register</h1>
                     <form>
                         <input type="text" placeholder="Username" />
+                        <input type="text" placeholder="Preferred First Name" />
                         <input type="password" placeholder="Password" />
-                        <input type="text" placeholder="Name" />
+                        <Link href = "/terms" style={{textDecoration: "none"}}><h4>Terms and Conditions</h4></Link>
                         <button>Register</button>
+                        <p>By registering, you acknowledge that you have read and understand the terms and conditions.</p>
                     </form>
                 </div>
             </div>

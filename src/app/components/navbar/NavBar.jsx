@@ -1,8 +1,10 @@
 "use client"
 import "./navbar.scss"
 import Link from "next/link"
+import myPhoto from '../../assets/me.jpg';
 
 // replace emojis with material icons when I can get it installed
+const temp_pic = "https://images.pexels.com/photos/3747502/pexels-photo-3747502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
 
 const NavBar = () => {
     return (
@@ -11,20 +13,19 @@ const NavBar = () => {
                 <Link href="/home" style={{textDecoration: "none"}}>
                     <span>Paging</span>
                 </Link>
-                    <a>🌙</a>
-                    <a>🌐</a>
                 <div className="search">
-                <a>🔍</a>
-                <input type="text" placeholder="Search..."/>
+                    <a>🔍</a>
+                    <input type="text" placeholder="Search..."/>
                 </div>
 
-                </div>
+            </div>
                     
 
             <div className = "right">
-            <Link href = "/profile/me" style={{textDecoration: "none"}}>
+            <a>⚙️</a>
+            <Link href = "/profile/ryan" style={{textDecoration: "none"}}>
                 <div className="user">
-                    <img src = "https://images.pexels.com/photos/3747502/pexels-photo-3747502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt = '' /> 
+                    <img src = {temp_pic} alt = '' /> 
                     <span>Ryan Bowers</span>
                 </div>
             </Link>

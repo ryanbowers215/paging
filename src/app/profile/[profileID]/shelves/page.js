@@ -10,7 +10,7 @@ function ShelvesPage() {
     <div>
         <ProtectedRoute>
         <Layout>
-        <div style={{flex:6}}>
+        <div style={{flex:6, textAlign: "center"}}>
         Shelves
         </div>
         </Layout>

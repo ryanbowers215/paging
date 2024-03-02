@@ -7,7 +7,7 @@ const Books = ({}) => {
     return ( <div>
         <ProtectedRoute>
         <Layout>
-        <div style={{flex:6}}>
+        <div style={{flex:6, textAlign: "center"}}>
             Books Page
         </div>
         </Layout>

@@ -31,8 +31,8 @@
                     line-height: 50px;
                     
                 }
+
     
-                p{}
     
                 span{
                     font-size: 14px;
@@ -58,6 +58,16 @@
                 flex-direction: column;
                 gap: 50px;
                 justify-content: center;
+
+                h4{
+                    font-weight: bold;
+                    color: rgba(128, 0, 0, 0.6)
+                }
+
+                p{
+                    font-size: 8pt;
+                    color: rgba(128, 0, 0, 0.6);
+                }
     
     
                 h1{

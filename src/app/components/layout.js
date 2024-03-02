@@ -2,18 +2,21 @@
 import LeftBar from "./leftBar/LeftBar"
 import NavBar from "./navbar/NavBar"
 import RightBar from "./rightBar/RightBar"
+import "../style.scss"
 
 
 const Layout = ({children}) => {
     return (
-    <div>
-        <NavBar />
-        <div style={{display: "flex", justifyContent: "space-between"}}>
-        <LeftBar />
-        {children}
-        <RightBar />
+        <div>
+            <NavBar />
+            <div style={{display: "flex", justifyContent: "space-between"}}>
+                <LeftBar />
+                {children}
+                <RightBar />
+            </div>
         </div>
-    </div>)
+    )
+
 }
 
 export default Layout

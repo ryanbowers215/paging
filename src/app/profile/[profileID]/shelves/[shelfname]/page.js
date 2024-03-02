@@ -8,7 +8,7 @@ function ShelfPage({ params }) {
     <div>
         <ProtectedRoute>
         <Layout>
-        <div style={{flex:6}}>
+        <div style={{flex:6, textAlign: "center"}}>
             <Shelf shelfname={params.shelfname}/>
         </div>
         </Layout>

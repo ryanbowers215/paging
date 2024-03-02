@@ -10,8 +10,6 @@
         display: none;
     }
     
-    
-    
         .container{
             padding: 20px;
             display: flex;
@@ -19,37 +17,35 @@
             justify-content: space-between;
             gap: 20px;
 
-                hr{
-                    margin: 10px;
-                    border: none;
-                    height: 0px;
-                    background-color:rgba(128, 0, 0, 0.5);
 
-                }
-
-            .menu{
-                position: sticky;
+                .menu{
+                text-align: center;
+                height: calc(50vh - 70px);
                 overflow: scroll;
-                display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 gap: 20px;
                 background-color:rgba(128, 0, 0, 0.05);
                 border-radius: 25px;
+
+                hr{
+                    margin: 3px;
+                    border: none;
+                    height: 0px;
+                }
+
                 a{
-                    font-size: 30px;
                     color: #800000;
                 }
+
                 span{
                     font-size: small;
                     color: rgba(128, 0, 0, 0.5);
                     text-align: center;
-                    align-items: center;
                 }
     
     
                 .item{
-    
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
@@ -63,9 +59,40 @@
                     }
     
                     li{
-                        font-size: small;
-                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        font-size: x-small;
                         color: #800000;
+                        font-weight: bold;
+
+                        .userInfo{
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+
+                            img{
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .buttons{
+                            button{
+                                margin: 3px;
+                                padding: 5px;
+                                border: none;
+                                background-color: white;
+                                color: rgb(128, 0, 0, 0.5);
+                                font-weight: bold;
+                                cursor: pointer;
+                                font-size: 6pt;
+                                overflow: hidden;
+                            }
+
+                        }
                     }
                 }
             }

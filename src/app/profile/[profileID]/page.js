@@ -9,7 +9,7 @@ function ProfilePage({ params }) {
     <div>
         <ProtectedRoute>
         <Layout>
-        <div style={{flex:6}}>
+        <div style={{flex:6, textAlign: "center"}}>
             <Profile profileID={params.profileID}/>
         </div>
         </Layout>
