@@ -5,7 +5,7 @@ import ProtectedRoute from "../components/protectedRoute"
 import Friends from "../components/friends/page"
 
 
-const FriendsPage = ({}) => {
+function FriendsPage({}){
     return ( <div>
         <ProtectedRoute>
         <Layout>

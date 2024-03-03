@@ -15,7 +15,7 @@ export default function Shelf({shelfname}) {
     return (
         <div>
             <div>
-            <h2>{(shelfname).replaceAll("-", " ").toLowerCase()}</h2>
+            <h2>{(shelfname).replaceAll("-", " ")}</h2>
             </div>
             <div className ="bookContainer">
             {books.map(book=>(

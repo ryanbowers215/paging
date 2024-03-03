@@ -1,7 +1,7 @@
 "use client"
 import "./comments.scss"
 
-const Comments = () => {
+function Comments() {
 
     const temp_pic = "https://images.pexels.com/photos/3747502/pexels-photo-3747502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
     const comments = [

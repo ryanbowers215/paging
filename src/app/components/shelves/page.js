@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import ShelfPage from "../../profile/[profileID]/shelves/[shelfname]/page";
 
-const Shelves = () => {
+function Shelves() {
     const temp_pic = "https://images.pexels.com/photos/3747502/pexels-photo-3747502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
     const shelves = [
         {id: 1,name: 'To Be Read',book1: temp_pic, book2: temp_pic, book3: temp_pic, book4: temp_pic,desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"},
@@ -18,7 +18,7 @@ const Shelves = () => {
             {shelves.map(shelf=>(
                 <div className="shelf">
                     <div className = "nameBox">
-                        <Link href = {`../../profile/USERNAME/shelves/${(shelf.name).replaceAll(" ", "-").toLowerCase()}`} style={{textDecoration: "none"}}>
+                        <Link href = {`../../profile/USERNAME/shelves/${(shelf.name).replaceAll(" ", "-")}`} style={{textDecoration: "none"}}>
                         <span>{shelf.name}</span>
                         </Link>
                     </div>

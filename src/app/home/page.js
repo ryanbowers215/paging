@@ -5,7 +5,7 @@ import ProtectedRoute from "../components/protectedRoute"
 import Stories from "../components/storyposts/page"
 import Posts from "../components/posts/page"
 
-const Home = () => {
+function Home() {
 
     return ( 
     <div className = "home">

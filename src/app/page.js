@@ -1,5 +1,7 @@
 "use client"
 import Home from "./home/page";
+import "./style.scss"
+
 
 const currentUser = true;
 

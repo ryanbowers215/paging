@@ -3,7 +3,7 @@ import Link from "next/link";
 import Comments from "../comments/comments";
 import { useState } from "react";
 
-const Posts = () => {
+function Posts() {
     const [commentOpen, setCommentOpen] = useState(false)
     const temp_pic = "https://images.pexels.com/photos/3747502/pexels-photo-3747502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
     const posts = [

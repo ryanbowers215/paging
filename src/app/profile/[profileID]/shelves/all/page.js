@@ -4,7 +4,7 @@ import Layout from "../../../../components/layout"
 import ProtectedRoute from "../../../../components/protectedRoute"
 import Shelves from "../../../../components/shelves/page"
 
-const AllShelves = () => {
+function AllShelves(){
 
     return ( 
     <div className = "home">

@@ -19,14 +19,14 @@ const LeftBar = () => {
 
                   <Link href = "/friends" style={{textDecoration: "none"}}>
                     <div className="user">
-                       <a>👥</a>
+                       <h4>👥</h4>
                        <span>Friends</span> 
                     </div>
                   </Link>
 
                   <Link href = "/books" style={{textDecoration: "none"}}>
                     <div className="user">
-                       <a>📖</a>
+                       <h4>📖</h4>
                        <span>Books</span>
                     </div>
                   </Link>

@@ -1,7 +1,7 @@
 import "./friends.scss"
 import Link from "next/link";
 
-const Friends = () => {
+function Friends() {
     const temp_pic = "https://images.pexels.com/photos/3747502/pexels-photo-3747502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
     const friends = [
         {name: "Ryan", username: "ryan", pfp: temp_pic, friends: 8, bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"},

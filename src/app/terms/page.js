@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 
-function Terms() {
+const Terms = () => {
 
   return (
     <div>

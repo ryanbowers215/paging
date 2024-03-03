@@ -14,7 +14,7 @@ const NavBar = () => {
                     <span>Paging</span>
                 </Link>
                 <div className="search">
-                    <a>🔍</a>
+                    <h4>🔍</h4>
                     <input type="text" placeholder="Search..."/>
                 </div>
 
@@ -23,13 +23,13 @@ const NavBar = () => {
 
             <div className = "right">
             <Link href="/books" style={{textDecoration: "none"}}>
-            <span>📖</span>
+            <h4>📖</h4>
             </Link>
             <Link href="/friends" style={{textDecoration: "none"}}>
-            <span>👥</span>
+            <h4>👥</h4>
             </Link>
-            <a>🔔</a>
-            <a>⚙️</a>
+            <h4>🔔</h4>
+            <h4>⚙️</h4>
             <Link href = "/profile/ryan" style={{textDecoration: "none"}}>
                 <div className="user">
                     <img src = {temp_pic} alt = '' /> 
