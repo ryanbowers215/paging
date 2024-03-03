@@ -11,7 +11,7 @@ function ShelvesPage() {
         <ProtectedRoute>
         <Layout>
         <div style={{flex:6, textAlign: "center"}}>
-        Shelves
+        <Shelves />
         </div>
         </Layout>
         </ProtectedRoute>

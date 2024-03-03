@@ -64,7 +64,7 @@ const LeftBar = () => {
                 <hr></hr>
                 <div className = "menu">
 
-                  <Link href = "/profile/ryan/shelves" style={{textDecoration: "none", fontSize: "larger"}}>
+                  <Link href = "/profile/ryan/shelves/all" style={{textDecoration: "none", fontSize: "larger"}}>
                     <span>Shelves</span>
                    </Link>
 

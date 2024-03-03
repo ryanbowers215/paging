@@ -1,24 +1,23 @@
 "use client"
+import "./allshelves.scss"
 import Layout from "../../../../components/layout"
 import ProtectedRoute from "../../../../components/protectedRoute"
-import Shelf from "../../../../components/shelf"
 import Shelves from "../../../../components/shelves/page"
 
-function ShelfPage({ params }) {
+const AllShelves = () => {
 
-    return (
-    <div>
+    return ( 
+    <div className = "home">
         <ProtectedRoute>
         <Layout>
-        <div style={{flex:6}}>
-        <Shelf shelfname={params.shelfname}/>
-        
-            
-        
-        </div>
+            <div style={{flex:6}}>
+            <h2 className = "allshelves">all shelves</h2>
+            <Shelves />
+   
+            </div>
         </Layout>
         </ProtectedRoute>
     </div>)
 }
 
-export default ShelfPage
+export default AllShelves

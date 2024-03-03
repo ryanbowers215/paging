@@ -4,6 +4,12 @@
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+    h2{
+        padding-left: 40px;
+        align-self: flex-start;
+        color: rgb(128, 0, 0, 0.6);
+    }
+
     .images{
         width: 100%;
         height: 200px;
@@ -36,6 +42,7 @@
     }
 
     .profileContainer{
+        height: fit-content;
         border: 2px solid rgb(128, 0, 0, 0.6);
         border-radius: 20px;
         width: 50vw;
@@ -43,7 +50,7 @@
         margin-bottom: 30px;
 
         .userInfo{
-            height:180px;
+            height: fit-content;
             padding: 10px;
             display: flex;
             align-items: center;
@@ -75,7 +82,7 @@
             .right{
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-around;
                 gap: 10px;
                 height:100%;
                 flex:1;
@@ -89,6 +96,21 @@
                         font-weight: bold;
                         cursor: pointer;
                         
+                }
+
+                .numFriends{
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 10px;
+                    border: 2px solid rgb(128, 0, 0, 0.6);
+                    background-color: rgb(128, 0, 0, 0.05);
+                    align-items: center;
+                    height:3vw;
+                    width: 8vw;
+                    color: rgb(128, 0, 0, 0.6);
+                    text-align: center;
+                    font-weight: bold;
+
                 }
 
             }

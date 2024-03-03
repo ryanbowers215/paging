@@ -1,8 +1,5 @@
 "use client"
 import "./home.scss"
-import NavBar from "../components/navbar/NavBar"
-import LeftBar from "../components/leftBar/LeftBar"
-import RightBar from "../components/rightBar/rightBar"
 import Layout from "../components/layout"
 import ProtectedRoute from "../components/protectedRoute"
 import Stories from "../components/storyposts/page"
@@ -14,7 +11,8 @@ const Home = () => {
     <div className = "home">
         <ProtectedRoute>
         <Layout>
-            <div style={{flex:6, textAlign: "center"}}>
+            <div style={{flex:6}}>
+            <h2>Your friends are currently reading</h2>
             <Stories/>
             <Posts />
    

@@ -43,7 +43,6 @@ const Stories = () => {
 
 return(
     <div className = "storyContainer">
-        <h2>Your friends are currently reading</h2>
     <div className="stories">
 
         {stories.map(story=>(

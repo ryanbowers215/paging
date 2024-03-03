@@ -25,12 +25,15 @@ function Profile({profileID}) {
                         <div className="center">
                             <span>{profileID}</span>
                             <p className="username">{profileID}</p>
-                            <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <p className="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
 
                         </div>
 
                         <div className="right">
                             <button onClick={()=>setFriends(!friends)}>{friends ? "Remove Friend" : "Send Friend Request"}</button>
+                            <div className="numFriends">
+                                <span>8 Friends</span>
+                            </div>
 
                         </div>
                 </div>
