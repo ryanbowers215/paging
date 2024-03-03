@@ -15,7 +15,7 @@ const Home = () => {
         <ProtectedRoute>
         <Layout>
             <div style={{flex:6, textAlign: "center"}}>
-            <Stories />
+            <Stories/>
             <Posts />
    
             </div>

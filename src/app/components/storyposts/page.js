@@ -1,4 +1,5 @@
 import "./stories.scss"
+import Link from "next/link";
 
 const Stories = () => {
 
@@ -28,19 +29,28 @@ const Stories = () => {
         id: 5,
         name: 'Ryan',
         img: temp_pic
+    }, {
+        id: 1,
+        name: 'Ryan',
+        img: temp_pic
+    },
+    {
+        id: 2,
+        name: 'Lauren',
+        img: temp_pic
     }
 ];
 
 return(
     <div className = "storyContainer">
-
-    <h2>Your friends are currently reading</h2>
+        <h2>Your friends are currently reading</h2>
     <div className="stories">
 
         {stories.map(story=>(
             <div className="story">
+                <Link href="/books" className="link">
                 <img src={story.img} alt="" />
-                <span>{story.name}</span>
+                </Link>
             </div>
         ))}
     </div>

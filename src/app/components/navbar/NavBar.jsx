@@ -22,6 +22,13 @@ const NavBar = () => {
                     
 
             <div className = "right">
+            <Link href="/books" style={{textDecoration: "none"}}>
+            <span>📖</span>
+            </Link>
+            <Link href="/friends" style={{textDecoration: "none"}}>
+            <span>👥</span>
+            </Link>
+            <a>🔔</a>
             <a>⚙️</a>
             <Link href = "/profile/ryan" style={{textDecoration: "none"}}>
                 <div className="user">

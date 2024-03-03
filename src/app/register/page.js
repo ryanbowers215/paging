@@ -16,7 +16,7 @@ const Register = () => {
                     <h1>Register</h1>
                     <form>
                         <input type="text" placeholder="Username" />
-                        <input type="text" placeholder="Preferred First Name" />
+                        <input type="text" placeholder="Preferred Name" />
                         <input type="password" placeholder="Password" />
                         <Link href = "/terms" style={{textDecoration: "none"}}><h4>Terms and Conditions</h4></Link>
                         <button>Register</button>

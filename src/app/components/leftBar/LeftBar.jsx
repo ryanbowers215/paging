@@ -26,7 +26,7 @@ const LeftBar = () => {
 
                   <Link href = "/books" style={{textDecoration: "none"}}>
                     <div className="user">
-                       <a>📚</a>
+                       <a>📖</a>
                        <span>Books</span>
                     </div>
                   </Link>
@@ -42,7 +42,7 @@ const LeftBar = () => {
                     <div className="item">
 
                       <Link href="/books" style={{textDecoration: "none"}}>
-                        <span>Beautiful World Where Are You</span> 
+                        <span>Beautiful World, Where Are You</span> 
                        </Link>
 
                     </div>

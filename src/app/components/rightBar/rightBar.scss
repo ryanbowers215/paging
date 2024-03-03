@@ -6,6 +6,7 @@
     top: 70px;
     overflow: scroll;
     border-radius: 25px;
+    z-index: 998;
     &::-webkit-scrollbar{
         display: none;
     }
@@ -26,6 +27,7 @@
                 justify-content: space-between;
                 gap: 20px;
                 background-color:rgba(128, 0, 0, 0.05);
+                border: 2px solid rgba(128, 0, 0, 0.6);
                 border-radius: 25px;
 
                 hr{
@@ -35,12 +37,13 @@
                 }
 
                 a{
-                    color: #800000;
+                    color: rgb(128, 0, 0, 0.7);
+                    font-weight: 450;
                 }
 
                 span{
                     font-size: small;
-                    color: rgba(128, 0, 0, 0.5);
+                    color: rgba(128, 0, 0, 0.7);
                     text-align: center;
                 }
     
@@ -63,8 +66,8 @@
                         align-items: center;
                         justify-content: space-around;
                         font-size: x-small;
-                        color: #800000;
-                        font-weight: bold;
+                        color: rgb(128, 0, 0, 0.7);
+                        font-weight: 450;
 
                         .userInfo{
                             display: flex;
