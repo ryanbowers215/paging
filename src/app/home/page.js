@@ -15,6 +15,9 @@ const Home = () => {
             <h2>Your friends are currently reading</h2>
             <Stories/>
             <Posts />
+            <h2>You might like</h2>
+            <Stories />
+            <Posts />
    
             </div>
         </Layout>
